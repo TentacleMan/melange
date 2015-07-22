@@ -19,6 +19,7 @@ Default P2P Port: 1986
 Default RPC Port: 1987
 
 Console based mining via 'minespice true'
+OR 'setgenerate true n' where 'n' is the number of processor cores to use, -1 is unlimited i.e. the equivalent to 'minespice true'.
 
 Addresses begin with 'M' / Public Key 50
 
@@ -31,9 +32,3 @@ QR Code Support / LevelDB Support
 CHANGELOG
 
 Version 0.9.0-Herbert (inital release). A tribute to Frank Herbert, now you can mine spice!
-
-
-
-
-
-
