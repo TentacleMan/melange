@@ -66,7 +66,8 @@ public:
         assert(hashGenesisBlock == uint256("0x00000ab022d8be531fe587e287eaaf8996b14210f4bc8b84062cbaecedcc079a"));
         assert(genesis.hashMerkleRoot == uint256("0xb92e35d5a7cf7e93327e5a5e8fc0dfee3a7e0ddb2b2b8f77836aa2519ed7541a"));
 
-        vSeeds.push_back(CDNSSeedData("dromland.se", "dromland.se"));
+        vSeeds.push_back(CDNSSeedData("melange.dromland.se", "melange.dromland.se"));
+	vSeeds.push_back(CDNSSeedData("99.192.74.20", "99.192.74.20"));
    
 
         base58Prefixes[PUBKEY_ADDRESS] = 50;
