@@ -8,7 +8,7 @@ COPY src/ /usr/local/bin/
 EXPOSE 1986
 EXPOSE 1987
 RUN apt-get update && apt-get install -y libboost-system1.54.0 libboost-filesystem1.54.0 libboost-program-options1.54.0 libboost-thread1.54.0 libdb6.0++ libssl1.0.0 libminiupnpc8
-RUN useradd -ms /bin/bash minion  
+RUN useradd -ms /bin/bash username  
 USER username
 WORKDIR /home/username
 CMD ["spiced"]
